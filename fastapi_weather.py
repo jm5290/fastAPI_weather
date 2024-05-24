@@ -8,7 +8,7 @@ async def get_weather(cityn: str, scale: str):
     import requests
 
     # Replace 'YOUR_API_KEY' with your actual API key from OpenWeatherMap
-    API_KEY = '6c56d510f76d209a14f2d6082683e152'
+    API_KEY = 'YOUR_API_KEY'
 
     # Define the base URL for the OpenWeatherMap API
     BASE_URL = 'http://api.openweathermap.org/data/2.5/weather'
